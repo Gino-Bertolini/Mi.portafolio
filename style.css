@@ -1,0 +1,9 @@
+p{
+    color: red;
+}
+section{
+    color: blueviolet;
+    border: red;
+    margin: 20px blue;
+    padding: 20px;
+}
