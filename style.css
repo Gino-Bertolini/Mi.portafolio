@@ -1,9 +1,87 @@
-p{
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    font-family: 'Montserrat', sans-serif; /*tipo de letra*/
+    background-color:#FFFBFA; /*fondo de pag */
+    color: #3E363F; /*color de letra*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center; /*alineacion de texto*/
+    padding: 20px;
+    margin-bottom: 20px;
+    
 }
 section{
-    color: blueviolet;
-    border: red;
-    margin: 20px blue;
+    border: 1px black solid;
     padding: 20px;
+    margin-bottom: 20px;
+
+}
+.encabezado{
+    text-decoration: none; /*establece la apariencia de las líneas decorativas en el texto*/
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+    border: 1px #333 solid;
+    
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1{
+    margin-top: 0;
+}
+h2{
+    margin-bottom:  10px;
+}
+#acerca-de-mi p {
+    text-align: justify;
+}
+#habilidades ul {
+    list-style: none; /*saca los puntos de listado*/
+    padding: 0;
+    margin: 0
+}
+#habilidades ul li {
+    display: inline-block; /*alinea el texto de forma horinzontal*/
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /*borde redondeado*/
+    margin-right: 10px;
+}
+#experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#experiencia ul li {
+    margin-bottom: 10px;
+}
+#experiencia ul li strong {
+    font-weight: bold;
+}
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#proyectos ul li {
+    margin-bottom: 10px;
+}
+
+#proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos ul li a:hover {
+    text-decoration: underline;
+}
+.nombre{
+    border-top: 1px solid black;
+    margin: 0;
 }
